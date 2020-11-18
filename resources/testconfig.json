@@ -1,0 +1,18 @@
+{
+    "baseurls": {
+        "openweathermap": "api.openweathermap.org/data/2.5/"
+    },
+    "keys":{
+        "openweathermap": "3c29b9f16e179155cda8b6276873d9e9"
+    },
+    "invalidkeys":{
+        "openweathermap": "3c29b9f16e179155cda8b6276873d9e"
+    },
+    "filePath": {
+        
+    },
+    "sysValues": {
+        "TIMEOUT": 10000
+    },
+    "test" : "hello123"
+}

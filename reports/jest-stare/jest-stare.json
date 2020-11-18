@@ -1,0 +1,15 @@
+{
+  "resultDir": "reports/jest-stare/",
+  "log": true,
+  "reportTitle": "jest-stare!",
+  "reportHeadline": "openweathermap api test report",
+  "reportSummary": true,
+  "jestStareConfigJson": "jest-stare.json",
+  "jestGlobalConfigJson": "globalStuff.json",
+  "coverageLink": "../../coverage/lcov-report/index.html",
+  "additionalResultsProcessors": [
+    "jest-junit"
+  ],
+  "resultHtml": "index.html",
+  "resultJson": "jest-results.json"
+}

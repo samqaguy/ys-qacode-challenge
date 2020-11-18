@@ -1,0 +1,39 @@
+{
+  "name": "ys-qacode-challenge",
+  "version": "1.0.0",
+  "description": "js framework for web and api test automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samqaguy/ys-qacode-challenge.git"
+  },
+  "author": "Samuel Selwyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samqaguy/ys-qacode-challenge/issues"
+  },
+  "homepage": "https://github.com/samqaguy/ys-qacode-challenge#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  },
+  "jest-stare":
+  {
+    "resultDir":"reports/jest-stare",
+    "reportTitle":"jest-stare!",
+    "reportHeadline": "openweathermap api test report",
+    "reportSummary": true,
+    "additionalResultsProcessors":[
+       "jest-junit"
+    ],
+    "coverageLink":"../../coverage/lcov-report/index.html",
+    "jestStareConfigJson":"jest-stare.json",
+    "jestGlobalConfigJson":"globalStuff.json"
+ },
+  "dependencies": {
+    "jest-stare": "^2.2.0"
+  }
+}
