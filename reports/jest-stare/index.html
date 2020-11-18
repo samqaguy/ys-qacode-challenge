@@ -89,7 +89,7 @@
                 <canvas id="test-suites-canvas" width="100" height="100"></canvas>
                 <h2>Test Suites</h2>
                 <div class="list-group">
-                    <p id="test-suites-results" class="list-group-item list-group-item-action">1 passed, 1 total</p>
+                    <p id="test-suites-results" class="list-group-item list-group-item-action">2 passed, 2 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -97,7 +97,7 @@
                 <canvas id="tests-canvas" width="100" height="100"></canvas>
                 <h2>Tests</h2>
                 <div class="list-group">
-                    <p id="tests-results" class="list-group-item list-group-item-action">3 passed, 3 total</p>
+                    <p id="tests-results" class="list-group-item list-group-item-action">9 passed, 9 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -119,9 +119,8 @@
         <div class="d-none" id="test-summary"></div>
         <div class="d-none" id="test-config">{
   &quot;resultDir&quot;: &quot;reports&#x2F;jest-stare&#x2F;&quot;,
-  &quot;log&quot;: true,
   &quot;reportTitle&quot;: &quot;jest-stare!&quot;,
-  &quot;reportHeadline&quot;: &quot;openweathermap api test report&quot;,
+  &quot;reportHeadline&quot;: &quot;ys api &amp; web test report&quot;,
   &quot;reportSummary&quot;: true,
   &quot;jestStareConfigJson&quot;: &quot;jest-stare.json&quot;,
   &quot;jestGlobalConfigJson&quot;: &quot;globalStuff.json&quot;,
@@ -136,14 +135,14 @@
             <div class="d-none" id="test-results">{
   &quot;numFailedTestSuites&quot;: 0,
   &quot;numFailedTests&quot;: 0,
-  &quot;numPassedTestSuites&quot;: 1,
-  &quot;numPassedTests&quot;: 3,
+  &quot;numPassedTestSuites&quot;: 2,
+  &quot;numPassedTests&quot;: 9,
   &quot;numPendingTestSuites&quot;: 0,
   &quot;numPendingTests&quot;: 0,
   &quot;numRuntimeErrorTestSuites&quot;: 0,
   &quot;numTodoTests&quot;: 0,
-  &quot;numTotalTestSuites&quot;: 1,
-  &quot;numTotalTests&quot;: 3,
+  &quot;numTotalTestSuites&quot;: 2,
+  &quot;numTotalTests&quot;: 9,
   &quot;openHandles&quot;: [],
   &quot;snapshot&quot;: {
     &quot;added&quot;: 0,
@@ -161,7 +160,7 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1605658703402,
+  &quot;startTime&quot;: 1605736342675,
   &quot;success&quot;: true,
   &quot;testResults&quot;: [
     {
@@ -172,10 +171,10 @@
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1605658704412,
-        &quot;runtime&quot;: 952,
+        &quot;end&quot;: 1605736344821,
+        &quot;runtime&quot;: 1901,
         &quot;slow&quot;: false,
-        &quot;start&quot;: 1605658703460
+        &quot;start&quot;: 1605736342920
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -193,7 +192,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GET request - weather endpoint&quot;
           ],
-          &quot;duration&quot;: 97,
+          &quot;duration&quot;: 71,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GET request - weather endpoint should return 200 status on GET with city&#x3D;London&quot;,
@@ -219,7 +218,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;GET request - weather endpoint&quot;
           ],
-          &quot;duration&quot;: 162,
+          &quot;duration&quot;: 1214,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;GET request - weather endpoint should return 401 status on GET with incorrect key&quot;,
@@ -227,6 +226,112 @@
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;passed&quot;,
           &quot;title&quot;: &quot;should return 401 status on GET with incorrect key&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: null
+    },
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 6,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1605736406164,
+        &quot;runtime&quot;: 63244,
+        &quot;slow&quot;: true,
+        &quot;start&quot;: 1605736342920
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;&#x2F;Users&#x2F;samuelchristopherselwyn&#x2F;Sam-Inc&#x2F;JavaScript&#x2F;Automation&#x2F;ys-qacode-challenge&#x2F;src&#x2F;tests&#x2F;ui_saucedemo.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Saucedemo UI Tests&quot;
+          ],
+          &quot;duration&quot;: 2519,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Saucedemo UI Tests Should be able to launch Saucedemo&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should be able to launch Saucedemo&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Saucedemo UI Tests&quot;
+          ],
+          &quot;duration&quot;: 13047,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Saucedemo UI Tests Should be able to login to Saucedemo&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should be able to login to Saucedemo&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Saucedemo UI Tests&quot;
+          ],
+          &quot;duration&quot;: 19210,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Saucedemo UI Tests Should be able to find all items on products page containing \&quot;T-Shirt\&quot; and Add to cart&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should be able to find all items on products page containing \&quot;T-Shirt\&quot; and Add to cart&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Saucedemo UI Tests&quot;
+          ],
+          &quot;duration&quot;: 2551,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Saucedemo UI Tests Should be able to click cart and validate \&quot;T-Shirt\&quot; on cart&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should be able to click cart and validate \&quot;T-Shirt\&quot; on cart&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Saucedemo UI Tests&quot;
+          ],
+          &quot;duration&quot;: 12874,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Saucedemo UI Tests Should be able to checkout cart, fill form and continue&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should be able to checkout cart, fill form and continue&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Saucedemo UI Tests&quot;
+          ],
+          &quot;duration&quot;: 9362,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Saucedemo UI Tests Should be able to validate cart, and finish purchase&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should be able to validate cart, and finish purchase&quot;
         }
       ],
       &quot;failureMessage&quot;: null

@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="3" failures="0" errors="0" time="1.103">
-  <testsuite name="GET request - weather endpoint" errors="0" failures="0" skipped="0" timestamp="2020-11-18T00:18:23" time="0.952" tests="3">
-    <testcase classname="GET request - weather endpoint should return 200 status on GET with city=London" name="GET request - weather endpoint should return 200 status on GET with city=London" time="0.097">
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="63.639">
+  <testsuite name="GET request - weather endpoint" errors="0" failures="0" skipped="0" timestamp="2020-11-18T21:52:22" time="1.901" tests="3">
+    <testcase classname="GET request - weather endpoint should return 200 status on GET with city=London" name="GET request - weather endpoint should return 200 status on GET with city=London" time="0.071">
     </testcase>
     <testcase classname="GET request - weather endpoint should have city name=London in response" name="GET request - weather endpoint should have city name=London in response" time="0.001">
     </testcase>
-    <testcase classname="GET request - weather endpoint should return 401 status on GET with incorrect key" name="GET request - weather endpoint should return 401 status on GET with incorrect key" time="0.162">
+    <testcase classname="GET request - weather endpoint should return 401 status on GET with incorrect key" name="GET request - weather endpoint should return 401 status on GET with incorrect key" time="1.214">
+    </testcase>
+  </testsuite>
+  <testsuite name="Saucedemo UI Tests" errors="0" failures="0" skipped="0" timestamp="2020-11-18T21:52:22" time="63.244" tests="6">
+    <testcase classname="Saucedemo UI Tests Should be able to launch Saucedemo" name="Saucedemo UI Tests Should be able to launch Saucedemo" time="2.519">
+    </testcase>
+    <testcase classname="Saucedemo UI Tests Should be able to login to Saucedemo" name="Saucedemo UI Tests Should be able to login to Saucedemo" time="13.047">
+    </testcase>
+    <testcase classname="Saucedemo UI Tests Should be able to find all items on products page containing &quot;T-Shirt&quot; and Add to cart" name="Saucedemo UI Tests Should be able to find all items on products page containing &quot;T-Shirt&quot; and Add to cart" time="19.21">
+    </testcase>
+    <testcase classname="Saucedemo UI Tests Should be able to click cart and validate &quot;T-Shirt&quot; on cart" name="Saucedemo UI Tests Should be able to click cart and validate &quot;T-Shirt&quot; on cart" time="2.551">
+    </testcase>
+    <testcase classname="Saucedemo UI Tests Should be able to checkout cart, fill form and continue" name="Saucedemo UI Tests Should be able to checkout cart, fill form and continue" time="12.874">
+    </testcase>
+    <testcase classname="Saucedemo UI Tests Should be able to validate cart, and finish purchase" name="Saucedemo UI Tests Should be able to validate cart, and finish purchase" time="9.362">
     </testcase>
   </testsuite>
 </testsuites>

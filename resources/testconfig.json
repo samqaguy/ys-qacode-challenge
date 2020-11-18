@@ -14,5 +14,10 @@
     "sysValues": {
         "TIMEOUT": 10000
     },
-    "test" : "hello123"
+    "test" : "hello123",
+    "cusername": "samqaguy",
+    "acckey": "r4zHR3hYv1EfP3T8QnOzGnoD0m5EgILiM95jbSmS7KUS6KV2rq",
+    "appurl": "https://www.saucedemo.com",
+    "testuser": "standard_user",
+    "testaccess": "secret_sauce"
 }

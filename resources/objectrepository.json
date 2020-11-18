@@ -1,0 +1,23 @@
+{
+    "loginpage": {
+        "uname": "//input[@id='user-name']",
+        "pswrd": "//input[@id='password']",
+        "login": "//input[@id='login-button']",
+        "log": "//input[@id='test']",
+        "tshirt": "//div[contains(text(), '$item')]",
+        "addcart": "//button[contains(text(),'ADD TO CART')]",
+        "back": "//button[contains(text(),'<- Back')]",
+        "cart": "//div[@id='shopping_cart_container']",
+        "checkout": "//a[contains(text(),'CHECKOUT')]",
+        "fname": "//input[@id='first-name']",
+        "lname": "//input[@id='last-name']",
+        "zip": "//input[@id='postal-code']",
+        "continue": "//body/div[@id='page_wrapper']/div[@id='contents_wrapper']/div[@id='checkout_info_container']/div[1]/form[1]/div[2]/input[1]",
+        "finish": "//a[contains(text(),'FINISH')]",
+        "done": "//h2[contains(text(),'THANK YOU FOR YOUR ORDER')]"
+      },
+      "SkipSignIn": {
+        "by": "id",
+        "value": "com.amazon.mShop.android.shopping:id/skip_sign_in_button"
+      }
+    }

@@ -1,8 +1,7 @@
 {
   "resultDir": "reports/jest-stare/",
-  "log": true,
   "reportTitle": "jest-stare!",
-  "reportHeadline": "openweathermap api test report",
+  "reportHeadline": "ys api & web test report",
   "reportSummary": true,
   "jestStareConfigJson": "jest-stare.json",
   "jestGlobalConfigJson": "globalStuff.json",
