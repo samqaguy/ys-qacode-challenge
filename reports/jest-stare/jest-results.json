@@ -26,76 +26,9 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1605736342675,
+  "startTime": 1605748641046,
   "success": true,
   "testResults": [
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 3,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1605736344821,
-        "runtime": 1901,
-        "slow": false,
-        "start": 1605736342920
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "/Users/samuelchristopherselwyn/Sam-Inc/JavaScript/Automation/ys-qacode-challenge/src/tests/api_openweather.test.js",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "GET request - weather endpoint"
-          ],
-          "duration": 71,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "GET request - weather endpoint should return 200 status on GET with city=London",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should return 200 status on GET with city=London"
-        },
-        {
-          "ancestorTitles": [
-            "GET request - weather endpoint"
-          ],
-          "duration": 1,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "GET request - weather endpoint should have city name=London in response",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should have city name=London in response"
-        },
-        {
-          "ancestorTitles": [
-            "GET request - weather endpoint"
-          ],
-          "duration": 1214,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "GET request - weather endpoint should return 401 status on GET with incorrect key",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should return 401 status on GET with incorrect key"
-        }
-      ],
-      "failureMessage": null
-    },
     {
       "leaks": false,
       "numFailingTests": 0,
@@ -104,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1605736406164,
-        "runtime": 63244,
+        "end": 1605748733334,
+        "runtime": 92222,
         "slow": true,
-        "start": 1605736342920
+        "start": 1605748641112
       },
       "skipped": false,
       "snapshot": {
@@ -125,7 +58,7 @@
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 2519,
+          "duration": 4777,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to launch Saucedemo",
@@ -138,7 +71,7 @@
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 13047,
+          "duration": 17356,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to login to Saucedemo",
@@ -151,7 +84,7 @@
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 19210,
+          "duration": 23978,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to find all items on products page containing \"T-Shirt\" and Add to cart",
@@ -164,7 +97,7 @@
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 2551,
+          "duration": 3878,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to click cart and validate \"T-Shirt\" on cart",
@@ -177,7 +110,7 @@
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 12874,
+          "duration": 24554,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to checkout cart, fill form and continue",
@@ -190,7 +123,7 @@
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 9362,
+          "duration": 9296,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to validate cart, and finish purchase",
@@ -198,6 +131,73 @@
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "Should be able to validate cart, and finish purchase"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1605748734122,
+        "runtime": 762,
+        "slow": false,
+        "start": 1605748733360
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/samuelchristopherselwyn/Sam-Inc/JavaScript/Automation/ys-qacode-challenge/src/tests/api_openweather.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "GET request - weather endpoint"
+          ],
+          "duration": 64,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "GET request - weather endpoint should return 200 status on GET with city=London",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return 200 status on GET with city=London"
+        },
+        {
+          "ancestorTitles": [
+            "GET request - weather endpoint"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "GET request - weather endpoint should have city name=London in response",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should have city name=London in response"
+        },
+        {
+          "ancestorTitles": [
+            "GET request - weather endpoint"
+          ],
+          "duration": 51,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "GET request - weather endpoint should return 401 status on GET with incorrect key",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return 401 status on GET with incorrect key"
         }
       ],
       "failureMessage": null

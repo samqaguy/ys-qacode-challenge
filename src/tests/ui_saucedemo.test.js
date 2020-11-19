@@ -12,6 +12,7 @@ const loginpage = require('../uipageutils/loginpage');
 const commonFunc = require('../common/common.js');
 const assert = require('assert')
 const common = new commonFunc()
+exports.ENV = require('minimist')(process.argv.slice(2))['where']
 var numItems;
 
 async function takeScreenshot(driveR, file) {
@@ -21,7 +22,7 @@ async function takeScreenshot(driveR, file) {
 }
 
 beforeAll(async () => {
-    await basepage.launchDriver('gc', 'local')
+    await basepage.launchDriver('gc', exports.ENV)
     loginpage.initLoginPageElements()
 })
 

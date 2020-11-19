@@ -33,14 +33,15 @@ class BasePage {
                         const capabilities = {
                             build: 'ys-ui-saucetest',
                             browserName: 'chrome',
-                            version: '84',
+                            version: '86',
                             platform: 'WIN10',
                             video: true,
                             network: true,
                             console: true,
                             visual: true,
-                        }
+                            resolution : '1280x800'
 
+                        }
 
                         driver = new Builder()
                             .usingServer(
@@ -48,7 +49,7 @@ class BasePage {
                             )
                             .withCapabilities(capabilities)
                             .build()
-                        // eslint-disable-next-line no-undef
+                        await driver.manage().window().maximize();
                         await driver.get(suturl)
                     } catch (error) {
                         console.log('Error launching remote driver: ' + error.name + error.message + error.stack)

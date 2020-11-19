@@ -1,0 +1,18 @@
+version 1.0
+
+phases:
+  install:
+  build:
+    commands:
+    - pwd
+    - npm install
+  post_build:
+    commands:
+artifacts:
+  files:
+reports:
+ jest_reports:
+  files:
+    -junit.xml
+  file-format: JunitXml
+  base-directory:
