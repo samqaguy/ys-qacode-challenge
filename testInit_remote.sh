@@ -2,5 +2,5 @@
 echo Installing Packages
 npm install
 
-echo Running Jest API & UI Tests.. UI Tests will be triggered locally on google chrome
+echo Running Jest API and UI Tests.. UI Tests will be triggered locally on google chrome
 jest --where=remote --runInBand 
