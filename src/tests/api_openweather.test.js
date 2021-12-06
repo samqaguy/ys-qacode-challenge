@@ -9,7 +9,7 @@ beforeAll(async () => {
 }
 )
 
-describe('GET request - weather endpoint', () => {
+describe('GET request - weather API endpoint', () => {
     let res
     let service = 'openweathermap'
     let apikey = common.readConfig().keys[service]

@@ -1,10 +1,10 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 2,
-  "numPassedTests": 9,
-  "numPendingTestSuites": 0,
-  "numPendingTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 3,
+  "numPendingTestSuites": 1,
+  "numPendingTests": 6,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
   "numTotalTestSuites": 2,
@@ -26,23 +26,23 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1605748641046,
+  "startTime": 1638815227681,
   "success": true,
   "testResults": [
     {
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 6,
-      "numPendingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 6,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1605748733334,
-        "runtime": 92222,
-        "slow": true,
-        "start": 1605748641112
+        "end": 1638815228013,
+        "runtime": 313,
+        "slow": false,
+        "start": 1638815227700
       },
-      "skipped": false,
+      "skipped": true,
       "snapshot": {
         "added": 0,
         "fileDeleted": false,
@@ -52,84 +52,84 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "/Users/samuelchristopherselwyn/Sam-Inc/JavaScript/Automation/ys-qacode-challenge/src/tests/ui_saucedemo.test.js",
+      "testFilePath": "/Users/samchris/Documents/GitHub/mysampleqaframe/src/tests/ui_saucedemo.test.js",
       "testResults": [
         {
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 4777,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to launch Saucedemo",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
+          "status": "pending",
           "title": "Should be able to launch Saucedemo"
         },
         {
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 17356,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to login to Saucedemo",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
+          "status": "pending",
           "title": "Should be able to login to Saucedemo"
         },
         {
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 23978,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to find all items on products page containing \"T-Shirt\" and Add to cart",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
+          "status": "pending",
           "title": "Should be able to find all items on products page containing \"T-Shirt\" and Add to cart"
         },
         {
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 3878,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to click cart and validate \"T-Shirt\" on cart",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
+          "status": "pending",
           "title": "Should be able to click cart and validate \"T-Shirt\" on cart"
         },
         {
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 24554,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to checkout cart, fill form and continue",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
+          "status": "pending",
           "title": "Should be able to checkout cart, fill form and continue"
         },
         {
           "ancestorTitles": [
             "Saucedemo UI Tests"
           ],
-          "duration": 9296,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Saucedemo UI Tests Should be able to validate cart, and finish purchase",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
+          "status": "pending",
           "title": "Should be able to validate cart, and finish purchase"
         }
       ],
@@ -143,10 +143,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1605748734122,
-        "runtime": 762,
+        "end": 1638815228421,
+        "runtime": 402,
         "slow": false,
-        "start": 1605748733360
+        "start": 1638815228019
       },
       "skipped": false,
       "snapshot": {
@@ -158,16 +158,16 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "/Users/samuelchristopherselwyn/Sam-Inc/JavaScript/Automation/ys-qacode-challenge/src/tests/api_openweather.test.js",
+      "testFilePath": "/Users/samchris/Documents/GitHub/mysampleqaframe/src/tests/api_openweather.test.js",
       "testResults": [
         {
           "ancestorTitles": [
-            "GET request - weather endpoint"
+            "GET request - weather API endpoint"
           ],
-          "duration": 64,
+          "duration": 89,
           "failureDetails": [],
           "failureMessages": [],
-          "fullName": "GET request - weather endpoint should return 200 status on GET with city=London",
+          "fullName": "GET request - weather API endpoint should return 200 status on GET with city=London",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
@@ -175,12 +175,12 @@
         },
         {
           "ancestorTitles": [
-            "GET request - weather endpoint"
+            "GET request - weather API endpoint"
           ],
           "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
-          "fullName": "GET request - weather endpoint should have city name=London in response",
+          "fullName": "GET request - weather API endpoint should have city name=London in response",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
@@ -188,12 +188,12 @@
         },
         {
           "ancestorTitles": [
-            "GET request - weather endpoint"
+            "GET request - weather API endpoint"
           ],
-          "duration": 51,
+          "duration": 40,
           "failureDetails": [],
           "failureMessages": [],
-          "fullName": "GET request - weather endpoint should return 401 status on GET with incorrect key",
+          "fullName": "GET request - weather API endpoint should return 401 status on GET with incorrect key",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",

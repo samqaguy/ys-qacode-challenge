@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="9" failures="0" errors="0" time="93.174">
-  <testsuite name="Saucedemo UI Tests" errors="0" failures="0" skipped="0" timestamp="2020-11-19T01:17:21" time="92.222" tests="6">
-    <testcase classname="Saucedemo UI Tests Should be able to launch Saucedemo" name="Saucedemo UI Tests Should be able to launch Saucedemo" time="4.777">
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="0.781">
+  <testsuite name="Saucedemo UI Tests" errors="0" failures="0" skipped="6" timestamp="2021-12-06T18:27:07" time="0.313" tests="6">
+    <testcase classname="Saucedemo UI Tests Should be able to launch Saucedemo" name="Saucedemo UI Tests Should be able to launch Saucedemo" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Saucedemo UI Tests Should be able to login to Saucedemo" name="Saucedemo UI Tests Should be able to login to Saucedemo" time="17.356">
+    <testcase classname="Saucedemo UI Tests Should be able to login to Saucedemo" name="Saucedemo UI Tests Should be able to login to Saucedemo" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Saucedemo UI Tests Should be able to find all items on products page containing &quot;T-Shirt&quot; and Add to cart" name="Saucedemo UI Tests Should be able to find all items on products page containing &quot;T-Shirt&quot; and Add to cart" time="23.978">
+    <testcase classname="Saucedemo UI Tests Should be able to find all items on products page containing &quot;T-Shirt&quot; and Add to cart" name="Saucedemo UI Tests Should be able to find all items on products page containing &quot;T-Shirt&quot; and Add to cart" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Saucedemo UI Tests Should be able to click cart and validate &quot;T-Shirt&quot; on cart" name="Saucedemo UI Tests Should be able to click cart and validate &quot;T-Shirt&quot; on cart" time="3.878">
+    <testcase classname="Saucedemo UI Tests Should be able to click cart and validate &quot;T-Shirt&quot; on cart" name="Saucedemo UI Tests Should be able to click cart and validate &quot;T-Shirt&quot; on cart" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Saucedemo UI Tests Should be able to checkout cart, fill form and continue" name="Saucedemo UI Tests Should be able to checkout cart, fill form and continue" time="24.554">
+    <testcase classname="Saucedemo UI Tests Should be able to checkout cart, fill form and continue" name="Saucedemo UI Tests Should be able to checkout cart, fill form and continue" time="0">
+      <skipped/>
     </testcase>
-    <testcase classname="Saucedemo UI Tests Should be able to validate cart, and finish purchase" name="Saucedemo UI Tests Should be able to validate cart, and finish purchase" time="9.296">
+    <testcase classname="Saucedemo UI Tests Should be able to validate cart, and finish purchase" name="Saucedemo UI Tests Should be able to validate cart, and finish purchase" time="0">
+      <skipped/>
     </testcase>
   </testsuite>
-  <testsuite name="GET request - weather endpoint" errors="0" failures="0" skipped="0" timestamp="2020-11-19T01:18:53" time="0.762" tests="3">
-    <testcase classname="GET request - weather endpoint should return 200 status on GET with city=London" name="GET request - weather endpoint should return 200 status on GET with city=London" time="0.064">
+  <testsuite name="GET request - weather API endpoint" errors="0" failures="0" skipped="0" timestamp="2021-12-06T18:27:08" time="0.402" tests="3">
+    <testcase classname="GET request - weather API endpoint should return 200 status on GET with city=London" name="GET request - weather API endpoint should return 200 status on GET with city=London" time="0.089">
     </testcase>
-    <testcase classname="GET request - weather endpoint should have city name=London in response" name="GET request - weather endpoint should have city name=London in response" time="0">
+    <testcase classname="GET request - weather API endpoint should have city name=London in response" name="GET request - weather API endpoint should have city name=London in response" time="0">
     </testcase>
-    <testcase classname="GET request - weather endpoint should return 401 status on GET with incorrect key" name="GET request - weather endpoint should return 401 status on GET with incorrect key" time="0.051">
+    <testcase classname="GET request - weather API endpoint should return 401 status on GET with incorrect key" name="GET request - weather API endpoint should return 401 status on GET with incorrect key" time="0.04">
     </testcase>
   </testsuite>
 </testsuites>
